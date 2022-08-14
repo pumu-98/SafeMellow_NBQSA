@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4f7fb"
+    tools:context=".Register"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="122dp"
+            android:layout_height="149dp"
+            android:layout_gravity="top|left"
+            app:srcCompat="@drawable/logo" />
+
+
+        <TextView
+            android:id="@+id/tv_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Register"
+            android:textAlignment="center"
+            android:textColor="#7463cf"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Welcome to SafeMellow Family"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Parent's Name :"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/p_name"
+            android:layout_width="369dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Parent's Name"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textAlignment="viewStart"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#040404"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cTxt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Child's Name :"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/c_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Child's Name"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textAlignment="viewStart"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pwTxt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Password : :"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/p_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textAlignment="viewStart"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pw2Txt"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Re-enter Password :"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/p_repassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textAlignment="viewStart"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button"
+                android:text="REGISTER"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="123dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/btn_register"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-3dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="LOG IN"
+                android:textColor="#7463cf"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
